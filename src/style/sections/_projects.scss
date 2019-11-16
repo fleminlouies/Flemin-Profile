@@ -4,13 +4,23 @@
   margin-top: -10rem;
   padding-top: 15rem;
 
+
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
   }
 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+p1 {
+  text-align: justify;
+  text-justify: left;
+}
   .project-wrapper {
     margin-bottom: 15rem;
+    
 
     @include respond(phone) {
       margin-bottom: 0rem;
@@ -56,6 +66,7 @@
       @include respond(tab-land) {
         width: 100%;
         margin: 0;
+
       }
 
       & .thumbnail {

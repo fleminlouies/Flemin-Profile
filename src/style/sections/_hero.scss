@@ -6,7 +6,7 @@
   border-bottom: 0px;
   background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $white;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -17,13 +17,22 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  background: url("https://images.pexels.com/photos/912388/pexels-photo-912388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
+
+  .form
+{
+  width: 600px ;
+
+  
+background: rgb(40,213,210);
+background: linear-gradient(135deg, rgba(40,213,210,0.17936580882352937) 30%, rgba(1,197,255,0.49407169117647054) 67%);
+}
 
   .hero-title {
     font-size: 5.6rem;
