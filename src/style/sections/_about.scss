@@ -32,6 +32,13 @@
       padding-bottom: 5rem;
 
     }
+    p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+  h2 {
+   font-weight: bold;
+}
 
     &__image {
       display: flex;
